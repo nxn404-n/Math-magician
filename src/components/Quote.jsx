@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import '../styles/Quote.css';
 
 function Quote() {
   const [quoteData, setQuoteData] = useState({ quote: '', author: '' });
@@ -30,18 +31,17 @@ function Quote() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="quoteWrapper">Loading...</div>;
   }
 
   if (error) {
-    return <div>{error}</div>;
+    return <div className="quoteWrapper">{error}</div>;
   }
 
   return (
-    <div>
-      <div>{quoteData.quote}</div>
-      <br />
-      <div>{quoteData.author}</div>
+    <div className="quoteWrapper">
+      <div className="quoteText">{quoteData.quote}</div>
+      <div className="quoteAuthor">{quoteData.author}</div>
     </div>
   );
 }
