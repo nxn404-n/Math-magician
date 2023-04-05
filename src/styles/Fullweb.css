@@ -1,0 +1,40 @@
+.headerWebsite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #8a8585;
+}
+
+.headerWebsite h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+nav li a:hover {
+  background-color: #333;
+  color: #fff;
+}

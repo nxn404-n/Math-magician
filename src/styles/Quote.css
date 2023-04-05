@@ -1,0 +1,21 @@
+.quoteWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.quoteText {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.quoteAuthor {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+}

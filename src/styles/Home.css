@@ -1,0 +1,21 @@
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.homeTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.homeParagraph {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 800px;
+  text-align: justify;
+}
