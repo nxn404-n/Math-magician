@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should render correctly 1`] = `
+<div
+  class="homeWrapper"
+>
+  <h1
+    class="homeTitle"
+  >
+    Welcome to our page!
+  </h1>
+  <p
+    class="homeParagraph"
+  >
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem suscipit assumenda autem ab blanditiis error harum? Temporibus culpa tempora, repellat sapiente ullam nulla. Culpa distinctio nobis voluptatibus nostrum expedita soluta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem suscipit assumenda autem ab blanditiis error harum? Temporibus culpa tempora, repellat sapiente ullam nulla. Culpa distinctio nobis voluptatibus nostrum expedita soluta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem suscipit assumenda autem ab blanditiis error harum? Temporibus culpa tempora, repellat sapiente ullam nulla. Culpa distinctio nobis voluptatibus nostrum expedita soluta.
+  </p>
+</div>
+`;
